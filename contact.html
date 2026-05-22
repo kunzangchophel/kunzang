@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherubtse | Contact Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container"><div class="logo"><i class="fas fa-search-location"></i><span>Sherubtse Lost & Found</span></div>
+            <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="report-lost.html">Report Lost</a></li><li><a href="report-found.html">Report Found</a></li><li><a href="browse.html">Browse Items</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+            <div class="auth-buttons"><a href="login.html" class="btn-login">Login</a><a href="signup.html" class="btn-signup">Sign Up</a></div>
+            <div class="mobile-menu-icon"><i class="fas fa-bars"></i></div></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-page">
+            <div class="contact-container">
+                <div class="contact-info-box">
+                    <h2><i class="fas fa-headset"></i> Contact Lost & Found Office</h2>
+                    <div class="contact-detail-item"><i class="fas fa-envelope"></i> <strong>Email:</strong> lostfound@sherubtse.edu.bt</div>
+                    <div class="contact-detail-item"><i class="fas fa-map-marker-alt"></i> <strong>Office:</strong> Sherubtse College, Student Affairs Office, Admin Building</div>
+                    <div class="contact-detail-item"><i class="fas fa-clock"></i> <strong>Office Hours:</strong> Mon-Fri, 9:00 AM - 4:00 PM (BTT)</div>
+                    <div class="contact-detail-item"><i class="fas fa-phone"></i> <strong>Helpline:</strong> +975 4 535 128 (ext. 204)</div>
+                    <div class="contact-note"><i class="fas fa-info-circle"></i> For item matching or claim verification, please visit the office with your Student ID card.</div>
+                </div>
+
+                <div class="contact-form-box">
+                    <h3><i class="fas fa-comment-dots"></i> Quick Inquiry</h3>
+                    <form class="mini-contact-form">
+                        <div class="input-group"><label>Your Name</label><input type="text" placeholder="Full name"></div>
+                        <div class="input-group"><label>Email Address</label><input type="email" placeholder="student@sherubtse.edu.bt"></div>
+                        <div class="input-group"><label>Student ID</label><input type="text" placeholder="e.g., SCE-2024-123"></div>
+                        <div class="input-group"><label>Message</label><textarea rows="4" placeholder="I have found an item / I need help regarding..."></textarea></div>
+                        <button type="submit" class="btn-submit">Send Message <i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="campus-location">
+                <i class="fas fa-school"></i> 
+                <span>Sherubtse College Campus, Kanglung, Trashigang, Bhutan — Student Affairs Office (West Wing, Admin Building)</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container"><div class="footer-col"><h4>Sherubtse Lost & Found</h4><p>Your campus helper</p></div><div class="footer-col"><h4>Support</h4><ul><li><a href="contact.html">Contact Us</a></li><li><a href="#">FAQ</a></li></ul></div><div class="footer-col"><h4>Social</h4><div class="social-links"><a href="#"><i class="fab fa-facebook"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div></div></div>
+        <div class="footer-bottom"><p>&copy; 2026 Sherubtse College Lost & Found Portal | All Rights Reserved</p></div>
+    </footer>
+    <script>
+        const menuIcon = document.querySelector('.mobile-menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+        if(menuIcon) menuIcon.addEventListener('click', () => navLinks.classList.toggle('show'));
+    </script>
+</body>
+</html>

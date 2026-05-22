@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherubtse | Browse Lost & Found Items</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container"><div class="logo"><i class="fas fa-search-location"></i><span>Sherubtse Lost & Found</span></div>
+            <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="report-lost.html">Report Lost</a></li><li><a href="report-found.html">Report Found</a></li><li><a href="browse.html" class="active">Browse Items</a></li><li><a href="contact.html">Contact</a></li></ul>
+            <div class="auth-buttons"><a href="login.html" class="btn-login">Login</a><a href="signup.html" class="btn-signup">Sign Up</a></div>
+            <div class="mobile-menu-icon"><i class="fas fa-bars"></i></div></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="browse-section">
+            <div class="container">
+                <div class="browse-header">
+                    <h2><i class="fas fa-boxes"></i> Lost & Found Items - Sherubtse College</h2>
+                    <p>Browse through recent reports. If you recognize an item, contact the admin.</p>
+                </div>
+
+                <div class="search-filter-bar">
+                    <div class="search-wrapper"><i class="fas fa-search"></i><input type="text" placeholder="Search items, category, location..."></div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active">All</button>
+                        <button class="filter-btn">Lost</button>
+                        <button class="filter-btn">Found</button>
+                        <button class="filter-btn">Electronics</button>
+                        <button class="filter-btn">ID Cards</button>
+                        <button class="filter-btn">Bags</button>
+                    </div>
+                </div>
+
+                <div class="items-grid">
+                    <div class="item-card">
+                        <div class="item-img"><i class="fas fa-laptop"></i></div>
+                        <span class="status-badge lost">🔴 Lost</span>
+                        <h3>MacBook Air</h3>
+                        <p class="item-desc">Space Gray, with Sherubtse sticker. Last seen in Library.</p>
+                        <div class="item-meta"><i class="fas fa-map-marker-alt"></i> Library &nbsp;|&nbsp; <i class="fas fa-calendar"></i> Mar 22, 2026</div>
+                        <button class="contact-card-btn"><i class="fas fa-envelope"></i> Contact Admin</button>
+                    </div>
+                    <div class="item-card">
+                        <div class="item-img"><i class="fas fa-id-card"></i></div>
+                        <span class="status-badge lost">🔴 Lost</span>
+                        <h3>Student ID Card</h3>
+                        <p class="item-desc">Name: Pema Dorji, SCE-2024-089. Lost near Cafeteria.</p>
+                        <div class="item-meta"><i class="fas fa-map-marker-alt"></i> Cafeteria &nbsp;|&nbsp; <i class="fas fa-calendar"></i> Mar 23, 2026</div>
+                        <button class="contact-card-btn">Contact Admin</button>
+                    </div>
+                    <div class="item-card">
+                        <div class="item-img"><i class="fas fa-backpack"></i></div>
+                        <span class="status-badge found">🟢 Found</span>
+                        <h3>North Face Backpack</h3>
+                        <p class="item-desc">Black backpack with notebooks inside. Found at Academic Block.</p>
+                        <div class="item-meta"><i class="fas fa-map-marker-alt"></i> Academic Block &nbsp;|&nbsp; <i class="fas fa-calendar"></i> Mar 21, 2026</div>
+                        <button class="contact-card-btn">Contact Admin</button>
+                    </div>
+                    <div class="item-card">
+                        <div class="item-img"><i class="fas fa-key"></i></div>
+                        <span class="status-badge found">🟢 Found</span>
+                        <h3>Room Keys + USB</h3>
+                        <p class="item-desc">3 keys with a small 16GB USB drive.</p>
+                        <div class="item-meta"><i class="fas fa-map-marker-alt"></i> Hostel D &nbsp;|&nbsp; <i class="fas fa-calendar"></i> Mar 20, 2026</div>
+                        <button class="contact-card-btn">Contact Admin</button>
+                    </div>
+                    <div class="item-card">
+                        <div class="item-img"><i class="fas fa-mobile-alt"></i></div>
+                        <span class="status-badge lost">🔴 Lost</span>
+                        <h3>Samsung Galaxy Phone</h3>
+                        <p class="item-desc">Black phone with blue case. Lost in Sports Complex.</p>
+                        <div class="item-meta"><i class="fas fa-map-marker-alt"></i> Sports Complex &nbsp;|&nbsp; <i class="fas fa-calendar"></i> Mar 19, 2026</div>
+                        <button class="contact-card-btn">Contact Admin</button>
+                    </div>
+                    <div class="item-card">
+                        <div class="item-img"><i class="fas fa-book"></i></div>
+                        <span class="status-badge found">🟢 Found</span>
+                        <h3>Physics Textbook</h3>
+                        <p class="item-desc">"University Physics" - name written inside: Tshering.</p>
+                        <div class="item-meta"><i class="fas fa-map-marker-alt"></i> Science Lab &nbsp;|&nbsp; Mar 18, 2026</div>
+                        <button class="contact-card-btn">Contact Admin</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container"><div class="footer-col"><h4>Sherubtse Lost & Found</h4><p>Connecting campus community</p></div><div class="footer-col"><h4>Resources</h4><ul><li><a href="report-lost.html">Report lost</a></li><li><a href="report-found.html">Report found</a></li></ul></div><div class="footer-col"><h4>Office</h4><p>Student Affairs Office, Admin Building</p></div></div>
+        <div class="footer-bottom"><p>&copy; 2026 Sherubtse College Lost & Found Portal</p></div>
+    </footer>
+    <script>
+        const menuIcon = document.querySelector('.mobile-menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+        if(menuIcon) menuIcon.addEventListener('click', () => navLinks.classList.toggle('show'));
+    </script>
+</body>
+</html>
